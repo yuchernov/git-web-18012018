@@ -1,0 +1,127 @@
+
+.first-screen{
+  height: 650px;
+  background: url(img/texture.png);
+  background-size: cover;
+}
+
+.first-screen__top-block{
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-around;
+}
+
+#logo{
+  margin-top: 13px;
+}
+
+#ul-text{
+  font-family: Ubuntu;
+  font-size: 20px;
+  margin-top: 41px;
+}
+
+#ul-text li{
+  margin: 10px;
+}
+
+li a span{
+  margin-right: 13px;
+}
+
+#ul-text a:hover{
+  background-color: #e45028;
+  border-radius: 7px;
+  /* padding: 10px */
+}
+
+.first-screen__top-block li {
+    display: inline;
+}
+
+.first-screen__top-block a {
+    color: white;
+    text-decoration: none
+}
+
+
+.first-screen__middle-block{
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.first__section{
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+
+.info span{
+  color: #f9b43b;
+  font-family: gagalin;
+  font-size: 72px
+} 
+
+.info{
+  color: #ffffff;
+  font-family: Lifehack;
+  font-size: 65px;
+  margin-left: 11px;
+  margin-top: 60px;
+  width: 402px
+}
+
+#burger{
+  margin-top: 17px;
+}
+
+.rnav__item{
+ display: block;
+ width:20px;
+ height: 20px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+#right-nav a{
+  display: block;
+  width: 5px;
+  height: 5px;
+}
+
+a.new:after{
+content:'';/* //ОБЯЗАТЕЛЬНОЕ ПОЛЕ (сам часто забывал про него) */
+display:block;
+width:5px;
+height:5px;
+background: #fff;
+border-radius: 50%;
+}
+
+.point-active{
+     border: 1px solid #fff;
+     border-radius: 50%;
+     position: absolute;
+} 
+
+.first-screen__bottom-block{
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: center;
+  margin-top: 90px;
+}
+
