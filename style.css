@@ -1,6 +1,29 @@
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('Ubuntu-Medium.woff2') format('woff2'),
+        url('Ubuntu-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gagalin';
+    src: url('Gagalin-Regular.woff2') format('woff2'),
+        url('Gagalin-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lifehack';
+    src: url('Lifehack-Medium.woff2') format('woff2'),
+        url('Lifehack-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
 
 .first-screen{
-  height: 650px;
+  min-height: 650px;
   background: url(img/texture.png);
   background-size: cover;
 }
@@ -19,7 +42,6 @@
 }
 
 #ul-text{
-  font-family: Ubuntu;
   font-size: 20px;
   margin-top: 41px;
 }
@@ -35,7 +57,6 @@ li a span{
 #ul-text a:hover{
   background-color: #e45028;
   border-radius: 7px;
-  /* padding: 10px */
 }
 
 .first-screen__top-block li {
@@ -68,13 +89,11 @@ li a span{
 
 .info span{
   color: #f9b43b;
-  font-family: gagalin;
   font-size: 72px
 } 
 
 .info{
   color: #ffffff;
-  font-family: Lifehack;
   font-size: 65px;
   margin-left: 11px;
   margin-top: 60px;
@@ -126,7 +145,7 @@ border-radius: 50%;
 }
 
 .we{
-  height: 600px;
+  min-height: 600px;
   background: url(img/bg.png);
   background-size: cover;
 }
@@ -141,7 +160,6 @@ border-radius: 50%;
 }
 
 #toptext{
-  font-family: gagalin;
   font-size: 72.06px;
   color: #2f3234;
   margin-top: 133px;
@@ -153,17 +171,15 @@ border-radius: 50%;
   display: -ms-flex;
   display: -o-flex;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 #topt{
-  font-family: lifehack;
   font-size: 24.12px;
   color: #2f3234
 }
 
 #bottomt{
-  font-family: ubuntu;
   font-size: 14.01px;
   color: #8b8987;
   width: 292px;
@@ -179,4 +195,34 @@ border-radius: 50%;
 
 .third-el{
   text-align: center;
+}
+
+.reviews{
+  min-height: 600px;
+}
+
+.first-section-img{
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: center
+}
+
+.first-section-img img{
+  object-fit: cover;
+}
+
+.second-section-img{
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: center
+}
+
+.second-section-img img{
+  object-fit: cover;
 }
