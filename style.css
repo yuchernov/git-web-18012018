@@ -199,7 +199,7 @@ border-radius: 50%;
 
 .reviews{
   min-height: 600px;
-  font-size: 0
+  font-size: 0;
 }
 
 .first-section-img{
@@ -228,28 +228,82 @@ border-radius: 50%;
   object-fit: cover;
 }
 
+
 .imgno1{
-  width: 25%
+  width: 25%;
+  position  : relative;
 }
+
 .imgno2{
-  width: 25%
+  width: 25%;
+  position  : relative;
 }
 .imgno3{
-  width: 25%
+  width: 25%;
+  position  : relative;
 }
 .imgno4{
-  width: 25%
+  width: 25%;
+  position  : relative;
 }
 
 .imgno5{
-  width: 25%
+  width: 25%;
+  position  : relative;
 }
 .imgno6{
-  width: 25%
+  width: 25%;
+  position  : relative;
 }
 .imgno7{
-  width: 25%
+  width: 25%;
+  position  : relative;
 }
 .imgno8{
-  width: 25%
+  width: 25%;
+  position  : relative;
 }
+
+
+.firstp {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+}
+
+#fname{
+    color: white;
+    font-size: 14px;  
+} 
+
+
+.secondp {
+    position: absolute;
+    top: 80px;
+    left: 20px;
+    width: 240px;
+}
+
+#sname{
+    color: white;
+    font-size: 14px;
+    line-height: 1.7;  
+} 
+
+.thirdp {
+    position: absolute;
+    top: 235px;
+    left: 20px;
+    background-color:#2f3234;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.thirdp:hover {
+    background-color:#1f2122;
+}
+
+#tname{
+    color: white;
+    font-size: 14px;  
+} 
