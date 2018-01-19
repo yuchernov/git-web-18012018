@@ -199,6 +199,7 @@ border-radius: 50%;
 
 .reviews{
   min-height: 600px;
+  font-size: 0
 }
 
 .first-section-img{
@@ -207,7 +208,7 @@ border-radius: 50%;
   display: -ms-flex;
   display: -o-flex;
   display: flex;
-  justify-content: center
+  justify-content: center;
 }
 
 .first-section-img img{
@@ -225,4 +226,30 @@ border-radius: 50%;
 
 .second-section-img img{
   object-fit: cover;
+}
+
+.imgno1{
+  width: 25%
+}
+.imgno2{
+  width: 25%
+}
+.imgno3{
+  width: 25%
+}
+.imgno4{
+  width: 25%
+}
+
+.imgno5{
+  width: 25%
+}
+.imgno6{
+  width: 25%
+}
+.imgno7{
+  width: 25%
+}
+.imgno8{
+  width: 25%
 }
