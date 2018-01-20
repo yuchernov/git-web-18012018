@@ -1,0 +1,38 @@
+.best {
+    background-image: url('../img/bg/bg2.png');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+}
+
+.section__title--best {
+    color: #2f3234;
+    padding: 0;
+    margin-bottom: rem(60px);
+    display: flex;
+    justify-content: center;
+    margin-top: rem(133px);
+}
+
+.best__content {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 250px;
+}
+
+.content__top {
+    font-size: rem(24.12px);
+    color: #2f3234;
+    font-family: 'Gagalin';
+}
+
+.content__bottom {
+    font-size: rem(14.01px);
+    color: #8b8987;
+    width: rem(292px);
+}
